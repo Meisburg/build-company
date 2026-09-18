@@ -1,5 +1,23 @@
 # BuildCompany
 
+## Why this exists
+
+Grok Bot hosted a three-day **Galaxy livestream** showing how a small team could
+start with a blank slate and build a company in public. They worked through the
+real sequence: finding an idea, learning what customers need, deciding what to
+make, building a first version, launching it, and learning from feedback.
+
+I saved the three-day transcripts and turned the useful parts into this project.
+The goal is simple: give someone a way to start their own company with one bot,
+then let that bot help design and create the rest of the team.
+
+BuildCompany began with Grok Bot, but the underlying workflow is not specific to
+Grok. It can also be adapted for Hermes Bot Mode, OpenBot, or any future system
+that lets people create and coordinate AI bots.
+
+Watch the original [Grok Bot Galaxy livestream](https://luma.com/3ifrgttw) or
+visit the [Galaxy event page](https://x.ai/galaxy) to see the inspiration.
+
 ## Start here
 
 Create one bot. Give it [`bots/bootstrapper.md`](bots/bootstrapper.md). Then
@@ -27,15 +45,6 @@ with AI bots. It gives your team:
 - setup guides for Grok Bot, Hermes Bot Mode, OpenBot, or another bot system.
 
 The operating model stays the same. Only the bot-runtime setup changes.
-
-## Watch the inspiration
-
-The workflow is based on the three-day Grok Bot Galaxy build, where a small team
-worked from a blank slate through research, product decisions, engineering,
-launch, and feedback.
-
-- [Watch the Grok Bot Galaxy livestream](https://luma.com/3ifrgttw)
-- [Visit the Grok Bot Galaxy event page](https://x.ai/galaxy)
 
 ## What happens next
 
