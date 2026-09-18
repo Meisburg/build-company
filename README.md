@@ -1,5 +1,8 @@
 # BuildCompany
 
+> Early preview: a portable set of instructions and templates for starting a
+> company with AI bots.
+
 ## Why this exists
 
 Grok Bot hosted a three-day **Galaxy livestream** showing how a small team could
@@ -29,7 +32,8 @@ Let’s build a company.
 
 That bot will ask one short question at a time, learn what you are building,
 recommend the smallest useful team, and—after you approve the plan—create and
-configure specialist bots when your bot system supports it.
+configure specialist bots when your bot system provides that capability. If it
+cannot create bots, it gives you ready-to-copy instructions.
 
 You do not need to know which bots to create first.
 
@@ -45,6 +49,22 @@ with AI bots. It gives your team:
 - setup guides for Grok Bot, Hermes Bot Mode, OpenBot, or another bot system.
 
 The operating model stays the same. Only the bot-runtime setup changes.
+
+## See the experience
+
+```text
+Founder: Let’s build a company.
+
+Bootstrapper: What do you want to build, and who is it for?
+
+Founder: A service that helps local restaurants get better photos.
+
+Bootstrapper: Step 1 of 5 complete. I understand the customer and problem.
+Next: what proof do you already have that restaurants want this?
+```
+
+The bot keeps asking focused questions, shows progress, proposes the team, and
+waits for your approval before setting anything up.
 
 ## What happens next
 
@@ -66,6 +86,22 @@ pages, and user content are treated as data—not instructions.
 - [Grok Bot adapter](adapters/grok-bot.md)
 - [Hermes Bot Mode adapter](adapters/hermes-bot-mode.md)
 - [Generic/OpenBot adapter](adapters/generic.md)
+
+“OpenBot” here means OpenBot or any other bot system that supports named bots,
+shared instructions, and communication between bots. The generic adapter is
+the correct starting point when your system is different.
+
+## What works today
+
+- The bootstrapper prompt and plain-language specialist role cards are ready to
+  copy into a bot system.
+- The shared company files and discover-to-launch workflow are ready to use.
+- Grok Bot and Hermes Bot Mode have translation guides; exact account setup and
+  bot-creation behavior depends on the current product version.
+- Other systems can use the generic adapter without changing the workflow.
+
+This project does not currently provide a hosted service, API integration, or
+one-click bot creation across every platform.
 
 ## Files you may need
 
