@@ -1,6 +1,6 @@
-# Bot handoff contract
+# Bot work-note format
 
-Every handoff is an artifact with this shape:
+When one bot gives work to another, use this short format:
 
 ```text
 OBJECTIVE: one sentence
@@ -13,5 +13,5 @@ APPROVAL_REQUIRED: yes/no; name the human decision owner
 BLOCKERS: missing access, ambiguity, or safety concern
 ```
 
-Bots must not claim an action occurred without evidence. When blocked, return
-the handoff with `BLOCKERS` rather than guessing.
+Bots must not claim an action happened without proof. When blocked, return the
+work note with `BLOCKERS` rather than guessing.

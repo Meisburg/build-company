@@ -8,19 +8,21 @@ everything in the evidence vault with provenance and confidence.
 
 ## 2. Choose a bet
 
-Product proposes one narrow hypothesis, target user, smallest test, and success
-threshold. The human records the choice in the decision log. No build work
-starts from an unapproved hypothesis.
+Product proposes one focused idea to test, the target user, the smallest test,
+and what would count as a good result. The human records the choice in the
+decision log. No building starts from an unapproved idea.
 
-## 3. Define the MVP
+## 3. Define the first small version
 
-Product and builder produce a short plan with explicit non-goals, acceptance
-checks, data handling, and rollback. Reviewer challenges assumptions first.
+Product and builder produce a short plan with what is included, what is not,
+how to tell if it works, how information is handled, and how to undo the change.
+Reviewer challenges assumptions first.
 
 ## 4. Build and verify
 
-Builder works in an isolated branch and opens a small PR. Reviewer runs checks
-and reports evidence. The human merges; bots do not self-approve their own work.
+Builder works in a safe copy and opens a small change for review. Reviewer tests
+it and reports what happened. The human approves the change; bots do not approve
+their own work.
 
 ## 5. Launch deliberately
 

@@ -12,11 +12,11 @@ Complete this with a human before creating a large bot team.
 - Why now:
 - Constraints (time, money, safety, access):
 
-## Current bet
+## Current idea to test
 
-- Hypothesis:
-- Evidence for it:
-- Evidence against it:
+- Idea:
+- Proof for it:
+- Proof against it:
 - Smallest useful test:
 - Success threshold:
 - Review date:
@@ -26,7 +26,7 @@ Complete this with a human before creating a large bot team.
 - Actions bots may take without confirmation:
 - Actions that always require confirmation:
 - Data that must not leave the workspace:
-- Approved tools and repositories:
+- Approved apps and project files:
 - Spending limit (default: none):
 
 ## Open decisions

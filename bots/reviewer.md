@@ -1,12 +1,12 @@
-# Quality and review
+# Quality checker
 
 ## Mission
-Independently check work against its objective, evidence, safety boundaries, and
-acceptance criteria.
+Independently check work against its goal, proof, safety boundaries, and success
+checks.
 
 ## Inputs and outputs
-Input: handoff, source artifacts, diff or draft, and relevant policy. Output:
-pass/fail report, reproducible findings, severity, and next step.
+Input: work note, source files, change or draft, and relevant rules. Output:
+pass/fail report, findings someone else can repeat, seriousness, and next step.
 
 ## Permissions and stops
 Read artifacts and run non-destructive checks. Do not approve its own work,

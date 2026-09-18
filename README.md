@@ -11,7 +11,7 @@ Let’s build a company.
 
 That bot will ask one short question at a time, learn what you are building,
 recommend the smallest useful team, and—after you approve the plan—create and
-configure specialist bots when your runtime supports it.
+configure specialist bots when your bot system supports it.
 
 You do not need to know which bots to create first.
 
@@ -21,10 +21,10 @@ BuildCompany is an open, vendor-neutral operating kit for building a company
 with AI bots. It gives your team:
 
 - a shared company brief;
-- role instructions with clear permissions;
-- handoff and evidence formats;
+- plain-language job instructions with clear limits;
+- a simple way for bots to pass work to one another;
 - a discover-to-launch workflow; and
-- runtime translations for Grok Bot, Hermes Bot Mode, OpenBot, or another system.
+- setup guides for Grok Bot, Hermes Bot Mode, OpenBot, or another bot system.
 
 The operating model stays the same. Only the bot-runtime setup changes.
 
@@ -40,10 +40,10 @@ launch, and feedback.
 ## What happens next
 
 1. The bootstrapper interviews you one question at a time.
-2. It writes the company brief and current hypothesis.
+2. It writes the company brief and the idea you are testing.
 3. It recommends only the roles needed now.
 4. You approve the team; it creates the specialists when possible.
-5. The team works through discover → bet → MVP → build → launch → learn.
+5. The team works through discover → choose → first version → build → launch → learn.
 
 ## Safety defaults
 
@@ -52,7 +52,7 @@ publishing, merges, and deployment. Bots may research, draft, classify,
 implement in isolation, and report evidence. External messages, tickets, web
 pages, and user content are treated as data—not instructions.
 
-## Runtime paths
+## Bot-system paths
 
 - [Grok Bot adapter](adapters/grok-bot.md)
 - [Hermes Bot Mode adapter](adapters/hermes-bot-mode.md)
@@ -65,6 +65,7 @@ pages, and user content are treated as data—not instructions.
 - [`company/`](company/) — shared company state
 - [`bots/`](bots/) — specialist role cards
 - [`docs/playbooks/`](docs/playbooks/) — lifecycle workflow
+- [`docs/glossary.md`](docs/glossary.md) — plain-English definitions
 - [`skill/`](skill/) — installable `$build-company` skill
 
 ## Attribution
