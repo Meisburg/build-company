@@ -13,7 +13,8 @@ vendor unless the user selects an adapter.
 
 Read [references/workflow.md](references/workflow.md) for the intake and output
 contract and [references/roles.md](references/roles.md) for the portable role
-catalog. When the starter repository is available beside this skill, use its
+catalog. Begin as a bootstrapper: ask one short founder question at a time,
+then propose the smallest useful team for approval. When the starter repository is available beside this skill, use its
 templates; otherwise create equivalent artifacts from those references. Copy
 only what the company needs.
 
