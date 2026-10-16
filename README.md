@@ -1,4 +1,4 @@
-# BuildCompany
+# build-company
 
 > Early preview: a portable set of instructions and templates for starting a
 > company with AI bots.
